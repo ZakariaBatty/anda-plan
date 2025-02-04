@@ -11,7 +11,7 @@ module.exports = {
    theme: {
       extend: {
          fontFamily: {
-            sans: ['var(--font-inter)'],
+            sans: ['Inter', 'sans-serif'],
          },
          colors: {
             border: 'hsl(var(--border))',
