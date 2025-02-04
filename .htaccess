@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
    RewriteEngine On
-   RewriteBase /morocco/
+   RewriteBase /plan/
  
    # If the request is not for a valid directory
    RewriteCond %{REQUEST_FILENAME} !-d
@@ -20,4 +20,4 @@
  AddDefaultCharset UTF-8
  
  # Serve index.html for 404 errors
- ErrorDocument 404 /morocco/index.html
+ ErrorDocument 404 /plan/index.html
