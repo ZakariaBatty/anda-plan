@@ -868,7 +868,7 @@ export default function Companies({ selectedCard }: Props) {
           width={1000}
           height={1000}
           className="w-[344px] h-[311px] left-[339px] top-[322px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
           src="/plan/Logo/E63.jpg"
         />
         <Image
@@ -876,216 +876,216 @@ export default function Companies({ selectedCard }: Props) {
           width={1000}
           height={1000}
           className="w-[125px] h-[79px] left-[792px] top-[318px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E53.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[123px] h-[77px] left-[599px] top-[137px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E15.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[67px] h-[67px] left-[522px] top-[147px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E53.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[122px] h-[83px] left-[356px] top-[142px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E52.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[62px] h-[55px] left-[486px] top-[6px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E52.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[45px] h-10 left-[652px] top-[8px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E13.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[45px] h-10 left-[716px] top-[8px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E10.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[45px] h-10 left-[779px] top-[8px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E14.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[51px] h-10 left-[346px] top-[856px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E39.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[55px] h-10 left-[422px] top-[856px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E38.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[45px] h-10 left-[577px] top-[857px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E35.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[45px] h-10 left-[640px] top-[857px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E34.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[45px] h-10 left-[838px] top-[9px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E15.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[45px] h-10 left-[901px] top-[9px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E16.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[34px] h-[34px] left-[1001px] top-[164px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E19.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[41px] h-11 left-[999px] top-[221px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E20.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[43px] h-[34px] left-[996px] top-[287px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E22.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[39px] h-[34px] left-[998px] top-[347px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E23.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[42px] h-[33px] left-[995px] top-[401px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E24.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[42px] h-[34px] left-[995px] top-[453px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E25.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[46px] h-[29px] left-[993px] top-[518px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E26.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[71px] h-[60px] left-[780px] top-[500px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E56.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-16 h-[60px] left-[865px] top-[500px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E56.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[68px] h-[60px] left-[820px] top-[588px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E56.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[58px] h-[42px] left-[796px] top-[698px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E57.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[58px] h-[42px] left-[797px] top-[755px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E57.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[108px] h-[79px] left-[361px] top-[688px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E59.jpg"
         />
         {/* E58 */}
         <div
@@ -1109,64 +1109,64 @@ export default function Companies({ selectedCard }: Props) {
           width={1000}
           height={1000}
           className="w-[92px] h-[79px] left-[587px] top-[688px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E58.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[103px] h-[73px] left-[129px] top-[621px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E60.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-24 h-[82px] left-[130px] top-[361px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E62.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[42px] h-[38px] left-[771px] top-[855px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E33.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[70px] h-12 left-[871px] top-[845px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E32.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-12 h-[38px] left-[882px] top-[699px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E57.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-12 h-[38px] left-[882px] top-[757px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E57.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[42px] h-[46px] left-[995px] top-[577px] absolute"
-          onClick={() => handleImageClick("/plan/pdfs/E63.pdf")}
-          src="/plan/Logo/E63.jpg"
+          onClick={() => handleImageClick("/pdfs/E63.pdf")}
+          src="/plan/Logo/E27.jpg"
         />
         <PdfViewerDialog isOpen={pdfDialogOpen} onClose={() => setPdfDialogOpen(false)} pdfUrl={currentPdfUrl} />
       </div>
