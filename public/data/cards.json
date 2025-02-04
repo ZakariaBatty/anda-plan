@@ -1,0 +1,46 @@
+{
+   "categories": [
+      {
+         "id": "conchylicoles",
+         "title": "PRODUCTEURS CONCHYLICOLES",
+         "backgroundColor": "#D5B88E",
+         "value": "conchylicoles"
+      },
+      {
+         "id": "piscicoles",
+         "title": "PRODUCTEURS PISCICOLES",
+         "backgroundColor": "#1B8599",
+         "value": "piscicoles"
+      },
+      {
+         "id": "crevettes",
+         "title": "PRODUCTEURS DE CREVETTES",
+         "backgroundColor": "#0A3543",
+         "value": "crevettes"
+      },
+      {
+         "id": "algues",
+         "title": "PRODUCTEURS D'ALGUES",
+         "backgroundColor": "#988A1A",
+         "value": "algues"
+      },
+      {
+         "id": "equipementiers",
+         "title": "EQUIPEMENTIERS ET FOURNISSEURS AQUACOLES",
+         "backgroundColor": "#8A1155",
+         "value": "equipementiers"
+      },
+      {
+         "id": "internationaux",
+         "title": "ORGANISMES INTERNATIONAUX",
+         "backgroundColor": "#3D7548",
+         "value": "internationaux"
+      }
+   ],
+   "social": {
+      "id": "social",
+      "title": "PROJETS SOCIAUX AQUACOLES",
+      "backgroundColor": "#0A3543",
+      "value": "social"
+   }
+}
