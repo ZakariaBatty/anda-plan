@@ -964,7 +964,7 @@ export default function Companies({ selectedCard }: Props) {
           width={1000}
           height={1000}
           className="w-[45px] h-10 left-[577px] top-[857px] absolute"
-          onClick={() => handleImageClick("/plan/img/E39.jpg")}
+          onClick={() => handleImageClick("/plan/img/E35.jpg")}
           src="/plan/Logo/E35.jpg"
         />
         <Image
