@@ -156,7 +156,7 @@ export default function Companies({ selectedCard }: Props) {
           E11
         </div>
         <div className="w-7 h-[13px] left-[599px] top-[123px] absolute text-[#d5b88e] text-[10px] font-bold font-['Inter']">
-          E15
+          E53
         </div>
         <div className="w-7 h-[13px] left-[660px] top-[53px] absolute text-[#d5b88e] text-[10px] font-bold font-['Inter']">
           E13
@@ -301,7 +301,7 @@ export default function Companies({ selectedCard }: Props) {
           E25
         </div>
         <div
-          className={`w-[55px] h-[60px] left-[990px] top-[496px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "piscicoles"
+          className={`w-[55px] h-[60px] left-[990px] top-[496px] absolute bg-[#d9d9d9] rounded-[7.20px] border-2 ${selectedCard?.value == "piscicoles"
             ? "border-[#1b869a] animate-wiggle"
             : "border-black"
             }`}
@@ -313,7 +313,7 @@ export default function Companies({ selectedCard }: Props) {
             </span>
           )}
         </div>
-        <div className="w-7 h-[13px] left-[995px] top-[497px] absolute text-[#d5b88e] text-[10px] font-bold font-['Inter']">
+        <div className="w-7 h-[13px] left-[995px] top-[497px] absolute text-[#d5b88e] bg-[#d9d9d9] text-[10px] font-bold font-['Inter']">
           E26
         </div>
         <div
@@ -820,9 +820,17 @@ export default function Companies({ selectedCard }: Props) {
         <div className="w-[72.63px] h-[11.64px] left-[5px] top-[454.10px] absolute text-black text-[13px] font-bold font-['Inter']">
           POLYTEL{" "}
         </div>
-        <div className="w-[218.91px] h-[17.76px] left-[228px] top-[25.45px] absolute text-black text-base font-bold font-['Inter']">
+        <div onClick={() => handleImageClick("/plan/img/E05.jpg")} className="w-[218.91px] h-[17.76px] left-[228px] top-[25.45px] absolute text-black text-base font-bold font-['Inter']">
           Projets Sociaux Aquacoles
         </div>
+        {/* <Image
+          alt="Image"
+          width={1000}
+          height={1000}
+          className="w-[218.91px] h-[17.76px] left-[228px] top-[25.45px] absolute"
+          // onClick={() => handleImageClick("/plan/img/E63-ANDA.jpg")}
+          src="/plan/Logo/E05.jpg"
+        /> */}
         <div className="w-[140.97px] h-[28.80px] left-[34px] top-[834.29px] absolute text-black text-2xl font-bold font-['Inter']">
           HALLE ONP
         </div>
@@ -876,24 +884,24 @@ export default function Companies({ selectedCard }: Props) {
           width={1000}
           height={1000}
           className="w-[125px] h-[79px] left-[792px] top-[318px] absolute"
-          onClick={() => handleImageClick("/plan/img/E53.jpg")}
-          src="/plan/Logo/E53.jpg"
+          onClick={() => handleImageClick("/plan/img/E55.jpg")}
+          src="/plan/Logo/E55.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[123px] h-[77px] left-[599px] top-[137px] absolute"
-          onClick={() => handleImageClick("/plan/img/E15.jpg")}
-          src="/plan/Logo/E15.jpg"
+          onClick={() => handleImageClick("/plan/img/E53.jpg")}
+          src="/plan/Logo/E53.jpg"
         />
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[67px] h-[67px] left-[522px] top-[147px] absolute"
-          onClick={() => handleImageClick("/plan/img/E53.jpg")}
-          src="/plan/Logo/E53.jpg"
+          onClick={() => handleImageClick("/plan/img/E53-bis.jpg")}
+          src="/plan/Logo/E53-bis.jpg"
         />
         <Image
           alt="Image"
@@ -916,7 +924,7 @@ export default function Companies({ selectedCard }: Props) {
           width={1000}
           height={1000}
           className="w-[45px] h-10 left-[652px] top-[8px] absolute"
-          onClick={() => handleImageClick("/plan/img/E63-ANDA.jpg")}
+          // onClick={() => handleImageClick("/plan/img/E63-ANDA.jpg")}
           src="/plan/Logo/E13.jpg"
         />
         <Image
@@ -1031,20 +1039,20 @@ export default function Companies({ selectedCard }: Props) {
           onClick={() => handleImageClick("/plan/img/E25.jpg")}
           src="/plan/Logo/E25.jpg"
         />
-        <Image
+        {/* <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[46px] h-[29px] left-[993px] top-[518px] absolute"
-          onClick={() => handleImageClick("/plan/img/E63-ANDA.jpg")}
-          src="/plan/Logo/E63.jpg"
-        />
+          onClick={() => handleImageClick("/plan/img/E26-ANDA.jpg")}
+          src="/plan/Logo/E26.jpg"
+        /> */}
         <Image
           alt="Image"
           width={1000}
           height={1000}
           className="w-[71px] h-[60px] left-[780px] top-[500px] absolute"
-          onClick={() => handleImageClick("/plan/img/E56.jpg")}
+          onClick={() => handleImageClick("/plan/img/E56-a.jpg")}
           src="/plan/Logo/E56-a.jpg"
         />
         <Image
@@ -1060,7 +1068,7 @@ export default function Companies({ selectedCard }: Props) {
           width={1000}
           height={1000}
           className="w-[68px] h-[60px] left-[820px] top-[588px] absolute"
-          onClick={() => handleImageClick("/plan/img/E56.jpg")}
+          onClick={() => handleImageClick("/plan/img/E56-b.jpg")}
           src="/plan/Logo/E56-b.jpg"
         />
         <Image
