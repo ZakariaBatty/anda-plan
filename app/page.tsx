@@ -31,7 +31,7 @@ export default function Home() {
     <main
       className="min-h-screen bg-cover bg-center"
       style={{
-        backgroundImage: `url('/Arriere.jpg')`,
+        backgroundImage: `url('/plan/Arriere.jpg')`,
       }}
     >
       <div className="relative z-10 flex flex-col items-center h-full">
