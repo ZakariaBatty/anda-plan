@@ -18,7 +18,7 @@ export default function Home() {
 
     const interval = setInterval(() => {
       setShowQRCodes((prev) => !prev);
-    }, 60000); // Switch every 1 minute
+    }, 300000); // Switch every 1 minute
 
     return () => clearInterval(interval);
   }, [autoSwitch]);
