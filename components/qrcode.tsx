@@ -14,12 +14,17 @@ export default function QRCodePage() {
       title_2: "Procedures Guide",
       image: "/plan/QR-Code-Guide-des-procédures.svg?height=400&width=400",
     },
+    {
+      title: "Catalogue des exposants",
+      title_2: "Pavillon Aquaculture",
+      image: "/plan/Catalog_ANDA.svg?height=400&width=400",
+    },
   ]
 
   return (
     <main className="flex flex-col items-center py-12">
       <div className="container flex justify-center mt-32 px-4">
-        <div className="grid grid-cols-1  gap-16 w-full max-w-[1200px]">
+        <div className="grid grid-cols-1 md:grid-cols-2  gap-16 w-full max-w-[1200px]">
           {qrCodes.map((qr, index) => (
             <motion.div
               key={index}
