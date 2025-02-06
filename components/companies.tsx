@@ -11,7 +11,7 @@ type Props = {
 export default function Companies({ selectedCard }: Props) {
   const [jpgDialogOpen, setjpgDialogOpen] = useState<boolean>(false)
   const [currentjpgUrl, setCurrentjpgUrl] = useState<string>("")
-
+  console.log("selectedCard", selectedCard)
   const handleImageClick = (jpgUrl: string) => {
     setCurrentjpgUrl(jpgUrl)
     setjpgDialogOpen(true)
@@ -19,7 +19,19 @@ export default function Companies({ selectedCard }: Props) {
   return (
     <div className="flex flex-row justify-center py-30">
       <div className="w-[1052px] h-[900px] relative bg-white py-10">
-        <div className="w-[247px] h-16 left-[206px] top-[3px] absolute bg-white rounded border-2 border-black" />
+        <div
+          className={`w-[247px] h-16 left-[206px] top-[3px] absolute bg-white rounded border-2 ${selectedCard?.value == "social"
+            ? "border-[#0A3543] animate-wiggle"
+            : "border-black"
+            }`}
+        >
+          {selectedCard?.value == "social" && (
+            <span className="relative flex size-3 top-[-6px] left-[-6px]">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#0A3543] opacity-75"></span>
+              <span className="relative inline-flex size-3 rounded-full bg-[#0A3543]"></span>
+            </span>
+          )}
+        </div>
         <div
           className={`w-[100px] h-16 left-[459px] top-[3px] absolute bg-white rounded border-2  ${selectedCard?.value == "equipementiers"
             ? "border-[#8a1156] animate-wiggle"
@@ -38,15 +50,15 @@ export default function Companies({ selectedCard }: Props) {
         <div className="w-[55px] h-[82px] left-[990px] top-[68px] absolute bg-[#d9d9d9] rounded-[7.20px]" />
         {/* E19 */}
         <div
-          className={`w-[55px] h-[54px] left-[990px] top-[151px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "conchylicoles"
-            ? "border-[#d5b88e] animate-wiggle"
+          className={`w-[55px] h-[54px] left-[990px] top-[151px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "equipementiers"
+            ? "border-[#8A1155] animate-wiggle"
             : "border-black"
             }`}
         >
-          {selectedCard?.value == "conchylicoles" && (
+          {selectedCard?.value == "equipementiers" && (
             <span className="relative flex size-3 top-[-6px] left-[-6px]">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#d5b88e] opacity-75"></span>
-              <span className="relative inline-flex size-3 rounded-full bg-[#d5b88e]"></span>
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#8A1155] opacity-75"></span>
+              <span className="relative inline-flex size-3 rounded-full bg-[#8A1155]"></span>
             </span>
           )}
         </div>
@@ -66,15 +78,15 @@ export default function Companies({ selectedCard }: Props) {
         </div>
         {/* E52bis */}
         <div
-          className={`w-[76px] h-28 left-[517px] top-[118px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "conchylicoles"
-            ? "border-[#d5b88e] animate-wiggle"
+          className={`w-[76px] h-28 left-[517px] top-[118px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "internationaux"
+            ? "border-[#3D7548] animate-wiggle"
             : "border-black"
             }`}
         >
-          {selectedCard?.value == "conchylicoles" && (
+          {selectedCard?.value == "internationaux" && (
             <span className="relative flex size-3 top-[-6px] left-[-6px]">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#d5b88e] opacity-75"></span>
-              <span className="relative inline-flex size-3 rounded-full bg-[#d5b88e]"></span>
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#3D7548] opacity-75"></span>
+              <span className="relative inline-flex size-3 rounded-full bg-[#3D7548]"></span>
             </span>
           )}
         </div>
@@ -161,7 +173,19 @@ export default function Companies({ selectedCard }: Props) {
         <div className="w-7 h-[13px] left-[660px] top-[53px] absolute text-[#d5b88e] text-[10px] font-bold font-['Inter']">
           E13
         </div>
-        <div className="w-[61px] h-16 left-[707px] top-[3px] absolute bg-white rounded border-2 border-black" />
+        <div
+          className={`w-[61px] h-16 left-[707px] top-[3px] absolute bg-white rounded border-2 ${selectedCard?.value == "equipementiers"
+            ? "border-[#8a1156] animate-wiggle"
+            : "border-black"
+            }`}
+        >
+          {selectedCard?.value == "equipementiers" && (
+            <span className="relative flex size-3 top-[-6px] left-[-6px]">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#8a1156] opacity-75"></span>
+              <span className="relative inline-flex size-3 rounded-full bg-[#8a1156]"></span>
+            </span>
+          )}
+        </div>
         <div className="w-7 h-[13px] left-[719px] top-[53px] absolute text-[#d5b88e] text-[10px] font-bold font-['Inter']">
           E10
         </div>
@@ -269,15 +293,15 @@ export default function Companies({ selectedCard }: Props) {
           <br />
         </div>
         <div
-          className={`w-[55px] h-[55px] left-[990px] top-[384px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "piscicoles"
-            ? "border-[#1b869a] animate-wiggle"
+          className={`w-[55px] h-[55px] left-[990px] top-[384px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "equipementiers"
+            ? "border-[#8A1155] animate-wiggle"
             : "border-black"
             }`}
         >
-          {selectedCard?.value == "piscicoles" && (
+          {selectedCard?.value == "equipementiers" && (
             <span className="relative flex size-3 top-[-6px] left-[-6px]">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#1b869a] opacity-75"></span>
-              <span className="relative inline-flex size-3 rounded-full bg-[#1b869a]"></span>
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#8A1155] opacity-75"></span>
+              <span className="relative inline-flex size-3 rounded-full bg-[#8A1155]"></span>
             </span>
           )}
         </div>
@@ -317,15 +341,15 @@ export default function Companies({ selectedCard }: Props) {
           E26
         </div>
         <div
-          className={`w-[55px] h-20 left-[990px] top-[557px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "piscicoles"
-            ? "border-[#1b869a] animate-wiggle"
+          className={`w-[55px] h-20 left-[990px] top-[557px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "equipementiers"
+            ? "border-[#8A1155] animate-wiggle"
             : "border-black"
             }`}
         >
-          {selectedCard?.value == "piscicoles" && (
+          {selectedCard?.value == "equipementiers" && (
             <span className="relative flex size-3 top-[-6px] left-[-6px]">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#1b869a] opacity-75"></span>
-              <span className="relative inline-flex size-3 rounded-full bg-[#1b869a]"></span>
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#8A1155] opacity-75"></span>
+              <span className="relative inline-flex size-3 rounded-full bg-[#8A1155]"></span>
             </span>
           )}
         </div>
@@ -369,29 +393,29 @@ export default function Companies({ selectedCard }: Props) {
         </div>
         {/* E56 */}
         <div
-          className={`w-[81px] h-[118px] left-[857px] top-[466px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "piscicoles"
-            ? "border-[#1b869a] animate-wiggle"
-            : "border-black"
-            }`}
-        >
-          {selectedCard?.value == "piscicoles" && (
-            <span className="relative flex size-3 top-[-6px] left-[-6px]">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#1b869a] opacity-75"></span>
-              <span className="relative inline-flex size-3 rounded-full bg-[#1b869a]"></span>
-            </span>
-          )}
-        </div>
-        {/* E55 */}
-        <div
-          className={`w-[166px] h-28 left-[771px] top-[299px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "conchylicoles"
-            ? "border-[#d5b88e] animate-wiggle"
+          className={`w-[81px] h-[118px] left-[857px] top-[466px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "conchylicoles"
+            ? "border-[#D5B88E] animate-wiggle"
             : "border-black"
             }`}
         >
           {selectedCard?.value == "conchylicoles" && (
             <span className="relative flex size-3 top-[-6px] left-[-6px]">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#d5b88e] opacity-75"></span>
-              <span className="relative inline-flex size-3 rounded-full bg-[#d5b88e]"></span>
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#D5B88E] opacity-75"></span>
+              <span className="relative inline-flex size-3 rounded-full bg-[#D5B88E]"></span>
+            </span>
+          )}
+        </div>
+        {/* E55 */}
+        <div
+          className={`w-[166px] h-28 left-[771px] top-[299px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "equipementiers"
+            ? "border-[#8A1155] animate-wiggle"
+            : "border-black"
+            }`}
+        >
+          {selectedCard?.value == "equipementiers" && (
+            <span className="relative flex size-3 top-[-6px] left-[-6px]">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#8A1155] opacity-75"></span>
+              <span className="relative inline-flex size-3 rounded-full bg-[#8A1155]"></span>
             </span>
           )}
         </div>
@@ -400,15 +424,15 @@ export default function Companies({ selectedCard }: Props) {
         </div>
         {/* E56-b */}
         <div
-          className={`w-40 h-[68px] left-[775px] top-[585px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "piscicoles"
-            ? "border-[#1b869a] animate-wiggle"
+          className={`w-40 h-[68px] left-[775px] top-[585px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "equipementiers"
+            ? "border-[#8A1155] animate-wiggle"
             : "border-black"
             }`}
         >
-          {selectedCard?.value == "piscicoles" && (
+          {selectedCard?.value == "equipementiers" && (
             <span className="relative flex size-3 top-[-6px] left-[-6px]">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#1b869a] opacity-75"></span>
-              <span className="relative inline-flex size-3 rounded-full bg-[#1b869a]"></span>
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#8A1155] opacity-75"></span>
+              <span className="relative inline-flex size-3 rounded-full bg-[#8A1155]"></span>
             </span>
           )}
         </div>{" "}
@@ -417,12 +441,12 @@ export default function Companies({ selectedCard }: Props) {
         </div>
         {/* E57-a */}
         <div
-          className={`w-[97px] h-14 left-[776px] top-[686px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "social"
+          className={`w-[97px] h-14 left-[776px] top-[686px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "crevettes"
             ? "border-[#0a3643] animate-wiggle"
             : "border-black"
             }`}
         >
-          {selectedCard?.value == "social" && (
+          {selectedCard?.value == "crevettes" && (
             <span className="relative flex size-3 top-[-6px] left-[-6px]">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#0a3643] opacity-75"></span>
               <span className="relative inline-flex size-3 rounded-full bg-[#0a3643]"></span>
@@ -436,12 +460,12 @@ export default function Companies({ selectedCard }: Props) {
           E59
         </div>
         <div
-          className={`w-[66px] h-14 left-[874px] top-[686px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "social"
+          className={`w-[66px] h-14 left-[874px] top-[686px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "crevettes"
             ? "border-[#0a3643] animate-wiggle"
             : "border-black"
             }`}
         >
-          {selectedCard?.value == "social" && (
+          {selectedCard?.value == "crevettes" && (
             <span className="relative flex size-3 top-[-6px] left-[-6px]">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#0a3643] opacity-75"></span>
               <span className="relative inline-flex size-3 rounded-full bg-[#0a3643]"></span>
@@ -456,12 +480,12 @@ export default function Companies({ selectedCard }: Props) {
         </div>
         {/* E57-b */}
         <div
-          className={`w-[97px] h-14 left-[776px] top-[744px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "social"
+          className={`w-[97px] h-14 left-[776px] top-[744px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "crevettes"
             ? "border-[#0a3643] animate-wiggle"
             : "border-black"
             }`}
         >
-          {selectedCard?.value == "social" && (
+          {selectedCard?.value == "crevettes" && (
             <span className="relative flex size-3 top-[-6px] left-[-6px]">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#0a3643] opacity-75"></span>
               <span className="relative inline-flex size-3 rounded-full bg-[#0a3643]"></span>
@@ -473,12 +497,12 @@ export default function Companies({ selectedCard }: Props) {
         </div>
         {/* E57-c */}
         <div
-          className={`w-[66px] h-14 left-[874px] top-[744px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "social"
+          className={`w-[66px] h-14 left-[874px] top-[744px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "crevettes"
             ? "border-[#0a3643] animate-wiggle"
             : "border-black"
             }`}
         >
-          {selectedCard?.value == "social" && (
+          {selectedCard?.value == "crevettes" && (
             <span className="relative flex size-3 top-[-6px] left-[-6px]">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#0a3643] opacity-75"></span>
               <span className="relative inline-flex size-3 rounded-full bg-[#0a3643]"></span>
@@ -503,7 +527,20 @@ export default function Companies({ selectedCard }: Props) {
         <div className="w-[22px] h-2 left-[757px] top-[843px] absolute text-black text-[10px] font-normal font-['Inter']">
           E02
         </div>
-        <div className="w-[81px] h-[54px] left-[751px] top-[842px] absolute bg-white rounded-[7.20px] border-2 border-black" />
+        <div
+          className={`w-[81px] h-[54px] left-[751px] top-[842px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "equipementiers"
+            ? "border-[#8A1155] animate-wiggle"
+            : "border-black"
+            }`}
+        >
+          {selectedCard?.value == "equipementiers" && (
+            <span className="relative flex size-3 top-[-6px] left-[-6px]">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#8A1155] opacity-75"></span>
+              <span className="relative inline-flex size-3 rounded-full bg-[#8A1155]"></span>
+            </span>
+          )}
+        </div>
+
         <div className="w-[19px] h-[9px] left-[339px] top-[843px] absolute text-black text-[10px] font-normal font-['Inter']">
           E02
         </div>
@@ -587,7 +624,19 @@ export default function Companies({ selectedCard }: Props) {
             </span>
           )}
         </div>
-        <div className="w-[149px] h-[54px] left-[833px] top-[842px] absolute bg-white rounded-[7.20px] border-2 border-black" />
+        <div
+          className={`w-[149px] h-[54px] left-[833px] top-[842px] absolute bg-white rounded-[7.20px] border-2 ${selectedCard?.value == "equipementiers"
+            ? "border-[#8a1156] animate-wiggle"
+            : "border-black"
+            }`}
+        >
+          {selectedCard?.value == "equipementiers" && (
+            <span className="relative flex size-3 top-[-6px] left-[-6px]">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#8a1156] opacity-75"></span>
+              <span className="relative inline-flex size-3 rounded-full bg-[#8a1156]"></span>
+            </span>
+          )}
+        </div>
         <div className="w-[68px] h-2 left-[840px] top-[845px] absolute text-[#d5b88e] text-[10px] font-bold font-['Inter']">
           E32
         </div>
