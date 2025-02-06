@@ -16,7 +16,7 @@ export default function QRCodePage() {
     },
     {
       title: "Catalogue des exposants",
-      title_2: "Pavillon Aquaculture",
+      title_2: "Exhibitors Catalogue",
       image: "/plan/Catalog_ANDA.svg?height=400&width=400",
     },
   ]
