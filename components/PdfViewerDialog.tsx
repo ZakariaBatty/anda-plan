@@ -1,5 +1,6 @@
 import type React from "react"
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
+import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog"
+import Image from "next/image"
 
 interface PdfViewerDialogProps {
   isOpen: boolean
@@ -10,13 +11,20 @@ interface PdfViewerDialogProps {
 export const PdfViewerDialog: React.FC<PdfViewerDialogProps> = ({ isOpen, onClose, pdfUrl }) => {
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-4xl max-h-[80vh]">
-        <DialogHeader>
-          <DialogTitle>PDF Viewer</DialogTitle>
-        </DialogHeader>
-        <iframe src={`${pdfUrl}#toolbar=0`} className="w-full h-[70vh]" title="PDF Viewer" />
+      <DialogContent className="w-auto h-auto max-w-full max-h-full">
+        <div className="relative">
+          <DialogTitle />
+          <Image
+            src={pdfUrl}
+            alt="pdfUrl"
+            width={4000}
+            height={3000}
+            className="w-auto h-auto max-w-full max-h-[90vh] object-contain"
+          />
+        </div>
       </DialogContent>
     </Dialog>
+
   )
 }
 
